@@ -5,6 +5,8 @@
 <title>A Slick Ajax Contact Form with jQuery and PHP</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script type="text/javascript">
      var messageDelay = 2000;  // How long to display status messages (in milliseconds)
      // Init the form once the document is ready
@@ -405,11 +407,11 @@ input, textarea {
  
 <div id="content">
  
-  <p style="padding-bottom: 50px; font-weight: bold; text-align: center;"><a href="#contactForm">~ Send us an email ~</a></p>
- 
+  <center>
+    <a href="#contactForm"><i class="fa fa-envelope fa-5x" style="text-align: center;" aria-hidden="true"></i></a></p>
+ </center>
   <!-- Content here -->
  
-  <p style="padding-top: 50px; font-weight: bold; text-align: center;"><a href="#contactForm">~ Send us an email ~</a></p>
   
 </div>
  
