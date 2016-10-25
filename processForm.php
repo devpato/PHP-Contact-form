@@ -1,11 +1,11 @@
 <?php
  
 // Define some constants
-define( "RECIPIENT_NAME", "John Smith" );
-define( "RECIPIENT_EMAIL", "john@example.com" );
+define( "RECIPIENT_NAME", "Patricio Vargas" );
+define( "RECIPIENT_EMAIL", "wearetamo@gmail.com" );
 define( "EMAIL_SUBJECT", "Visitor Message" );
  
-// Read the form values
+// Read the form values with spam checker using regular expression for spam check
 $success = false;
 $senderName = isset( $_POST['senderName'] ) ? preg_replace( "/[^\.\-\' a-zA-Z0-9]/", "", $_POST['senderName'] ) : "";
 $senderEmail = isset( $_POST['senderEmail'] ) ? preg_replace( "/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['senderEmail'] ) : "";
